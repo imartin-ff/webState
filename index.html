@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- title -->
+    <title>@WebState</title>
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <div class="site-container">
+      <!-- site-container -->
+      <header class="header">
+          <div class="container">
+              <div class="header__inner">
+
+              <a href="index.html" class="logo">WebState</a>
+              <ul class="menu">
+                  <li><a href="#portfolio" class="anchor-link">Portfolio</a></li>
+                  <li><a href="#about" class="anchor-link">About</a></li>
+                  <li><a href="#contact" class="anchor-link">Contact</a></li>
+              </ul>
+
+              <ul class="lang-swicher">
+                  <li class="active"><a href="#en">EN</a></li>
+                  <li><a href="#ua">UA</a></li>
+              </ul>
+
+            </div>
+
+          </div>
+      </header>
+  </body>
+</html>
+
+
+<div class="page-container">
+  <section class="home-screen">
+    <div class="container">
+      <div class="home-screen__inner">
+        <h1 class="home-title">WebState</h1>
+        <h2 class="home-subtitle">Website development studio</h2>
+
+        <button aria-label="Down" class="down-btn">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 0.5H37C38.3807 0.5 39.5 1.61929 39.5 3V36C39.5 37.3807 38.3807 38.5 37 38.5H3C1.61929 38.5 0.5 37.3807 0.5 36V3C0.5 1.61929 1.61929 0.5 3 0.5Z"
+              stroke="#00D6B4"
+            />
+            <path
+              d="M19.2929 27.7071C19.6834 28.0976 20.3166 28.0976 20.7071 27.7071L27.0711 21.3431C27.4616 20.9526 27.4616 20.3195 27.0711 19.9289C26.6805 19.5384 26.0474 19.5384 25.6569 19.9289L20 25.5858L14.3431 19.9289C13.9526 19.5384 13.3195 19.5384 12.9289 19.9289C12.5384 20.3195 12.5384 20.9526 12.9289 21.3431L19.2929 27.7071ZM19 25V27H21V25H19Z"
+              fill="#00D6B4"
+            />
+            <path
+              d="M19.2929 19.7071C19.6834 20.0976 20.3166 20.0976 20.7071 19.7071L27.0711 13.3431C27.4616 12.9526 27.4616 12.3195 27.0711 11.9289C26.6805 11.5384 26.0474 11.5384 25.6569 11.9289L20 17.5858L14.3431 11.9289C13.9526 11.5384 13.3195 11.5384 12.9289 11.9289C12.5384 12.3195 12.5384 12.9526 12.9289 13.3431L19.2929 19.7071ZM19 17V19H21V17H19Z"
+              fill="#00D6B4"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <h3 class="section-title">What are we doing</h3>
+      <div class="about__inner">
+        <div class="about__item">
+          <div class="about__item-img">
+            <img src="./img/1.svg" alt="" />
+          </div>
+
+          <p class="about__item-text">Website development on WordPress</p>
+        </div>
+
+        <div class="about__item">
+          <div class="about__item-img">
+            <img src="./img/2.svg" alt="" />
+          </div>
+
+          <p class="about__item-text">Support for existing sites</p>
+        </div>
+
+        <div class="about__item">
+          <div class="about__item-img">
+            <img src="./img/3.svg" alt="" />
+          </div>
+
+          <p class="about__item-text">Cross-browser/Adaptive website layou</p>
+        </div>
+
+        <div class="about__item">
+          <div class="about__item-img">
+            <img src="./img/4.svg" alt="" />
+          </div>
+
+          <p class="about__item-text">
+            Website development on the Tilda constructor
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Latest Work</h2>
+      <div class="portfolio__inner">
+        <ul class="portfolio-tabs tabs-links">
+          <li>
+            <button class="default-btn tab-link" data-target="wordpress">
+              wordpress
+            </button>
+          </li>
+          <li>
+            <button class="default-btn tab-link" data-target="html">
+              HTML/CSS/JS
+            </button>
+          </li>
+          <li>
+            <button class="default-btn tab-link" data-target="tilda">
+              tILDA
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-contents portfolio__contents">
+          <div class="tab-item" data-tab="wordpress">
+            <div class="portfolio__contents-inner">
+              <div class="portfolio-item">
+                <img src="img/portfolio-item01.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+
+              <div class="portfolio-item">
+                <img src="img/portfolio-item02.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+
+              <div class="portfolio-item">
+                <img src="img/portfolio-item03.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+
+              <div class="portfolio-item">
+                <img src="img/portfolio-item04.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+
+              <div class="portfolio-item">
+                <img src="img/portfolio-item05.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+
+              <div class="portfolio-item">
+                <img src="img/portfolio-item06.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-item" data-tab="html">
+            <div class="portfolio__contents-inner">
+              <div class="portfolio-item">
+                <img src="img/portfolio-item01.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+
+              <div class="portfolio-item">
+                <img src="img/portfolio-item02.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+
+              <div class="portfolio-item">
+                <img src="img/portfolio-item03.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-item" data-tab="tilda">
+            <div class="portfolio__contents-inner">
+              <div class="portfolio-item">
+                <img src="img/portfolio-item01.jpg" alt="portfolio-item1" />
+                <a href="" class="hover-panel">VIEW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact__inner">
+        <form action="" class="contact-form">
+          <input
+            type="text"
+            name="Username"
+            placeholder="Name"
+            class="input-default"
+          />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email"
+            class="input-default"
+          />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            class="input-default"
+          ></textarea>
+          <input type="submit" value="submit" class="default-btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <span>webstate</span>
+                <a href="">@t.me/webstate.st</a>
+            </div>
+
+        </div>
+    </footer>
+
+</div> <!--  /site-container -->
+
+<script src="js/main.min.js"></script>
+
+
+
+</body>
+
+</html>
